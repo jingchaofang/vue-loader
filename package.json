@@ -8,6 +8,7 @@
     "test": "yarn lint && jest --env node",
     "lint": "eslint lib test --fix",
     "build": "webpack --config example/webpack.config.js --hide-modules",
+    "build_es": "webpack --config example/webpack.config.es.js --hide-modules",
     "dev": "webpack-dev-server --config example/webpack.config.js --inline --hot",
     "debug": "node --inspect-brk=9229 ./node_modules/.bin/webpack-dev-server --config example/webpack.config.js --inline --hot",
     "debug2": "node --inspect-brk=9229 ./node_modules/.bin/webpack --config example/webpack.config.js --hide-modules",

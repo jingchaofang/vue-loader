@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "chrome",
+            "request": "launch",
+            "name": "vue-loader Local Host", // 本地服务打开，先启动anywhere
+            "url": "http://localhost:8000/tools/vue-loader/example/index_es.html", //anywhere 8000
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch via NPM",
